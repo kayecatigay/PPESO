@@ -21,3 +21,5 @@ Route::get('/login', [App\Http\Controllers\Auth\LoginController::class, 'login']
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/login2', [App\Http\Controllers\Auth\LoginController::class, 'login2']);
